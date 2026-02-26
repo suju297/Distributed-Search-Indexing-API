@@ -1,0 +1,26 @@
+node_modules/
+
+# Env / local secrets
+.env
+
+# Logs and runtime output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Optional local caches
+coverage/
+dist/
+build/
+
+# Local diagram iterations (keep only the final exported PNGs)
+docs/diagrams/*-20??-??-??T*.png
+docs/diagrams/system-components.png
+docs/diagrams/create-update-request-flow.png
+docs/diagrams/elasticsearch-parent-child-hierarchy.png
