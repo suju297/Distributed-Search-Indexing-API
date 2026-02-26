@@ -2,11 +2,9 @@
 
 Node.js/Express service for authenticated health plan CRUD operations with Redis-backed storage, optimistic concurrency via ETags, and asynchronous Elasticsearch indexing through RabbitMQ.
 
-Recommended GitHub repository name: `distributed-health-plan-indexer`
+## Key Capabilities
 
-## Why This Project (Resume-Friendly)
-
-This project demonstrates a distributed data indexing workflow:
+This project implements a distributed data indexing workflow with:
 
 - REST API built with Express
 - Google token-based authentication (with local mock token support)
@@ -257,9 +255,3 @@ GET plans/_search
   }
 }
 ```
-
-## Notes for Recruiters / Reviewers
-
-- This project emphasizes backend systems integration and asynchronous indexing pipelines.
-- The design intentionally separates API write latency from search indexing latency using RabbitMQ.
-- The Elasticsearch model demonstrates parent-child joins and routing-aware indexing.
